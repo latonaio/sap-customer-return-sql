@@ -4,6 +4,7 @@ CREATE TABLE `sap_customer_return_item_process_step_data`
   `RetsMgmtProcessItem`            varchar(6) NOT NULL,
   `RetsMgmtProcItmQtySplit`        varchar(3) NOT NULL,
   `RetsMgmtProcessStep`            varchar(4) NOT NULL,
+  `CustomerReturn`                 varchar(10) DEFAULT NULL,
   `ReturnsDocumentType`            varchar(2) DEFAULT NULL,
   `ReturnsDocument`                varchar(30) DEFAULT NULL,
   `ReturnsDocumentItem`            varchar(10) DEFAULT NULL,
